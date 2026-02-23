@@ -16,7 +16,7 @@ public class EsercizioPoligono extends TurtleScreen {
         int lunghezza;
         int k = scanner.nextInt();// numero poligoni
         EsercizioPoligono disegno = new EsercizioPoligono();
-        disegno.run();
+        disegno.setup(n,k);
 
     }
 
@@ -51,5 +51,6 @@ public class EsercizioPoligono extends TurtleScreen {
     disegnare(n,lunghezza);
     }
     }
+
 
     
